@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:orientation="vertical">
+    <TextView
+            android:id="@+id/lbl_id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:padding="@dimen/listitem_padding_value"
+            android:text="@string/loading_msg"
+            android:textColor="@color/colorPrimaryText"
+            android:textStyle="bold"
+            android:textSize="@dimen/item_header_fontsize" />
+    <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="@color/colorAccent"></View>
+    <GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:columnCount="4"
+                android:columnOrderPreserved="true"
+                android:paddingTop="@dimen/layout_padding_value"
+                android:paddingBottom="@dimen/layout_padding_value">
+        <TextView
+                android:id="@+id/caption_city"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:paddingStart="@dimen/layout_padding_value"
+                android:text="@string/lbl_city"
+                android:textColor="@color/colorAccent"
+                android:textSize="@dimen/item_content_fontsize"
+                android:textStyle="bold" />
+        <TextView
+                android:id="@+id/lbl_season"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:layout_marginLeft="@dimen/listitem_padding_value"
+                android:text="@string/loading_msg"
+                android:textColor="@color/colorPrimaryText"
+                android:textSize="@dimen/item_content_fontsize" />
+        <TextView
+                android:id="@+id/caption_taluka"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:paddingStart="@dimen/layout_padding_value"
+                android:text="@string/lbl_taluka"
+                android:textColor="@color/colorAccent"
+                android:textSize="@dimen/item_content_fontsize"
+                android:textStyle="bold" />
+        <TextView
+                android:id="@+id/lbl_number"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:layout_marginLeft="@dimen/listitem_padding_value"
+                android:text="@string/loading_msg"
+                android:textColor="@color/colorPrimaryText"
+                android:textSize="@dimen/item_content_fontsize" />
+        <TextView
+                android:id="@+id/caption_district"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:paddingStart="@dimen/layout_padding_value"
+                android:text="@string/lbl_district"
+                android:textColor="@color/colorAccent"
+                android:textSize="@dimen/item_content_fontsize"
+                android:textStyle="bold" />
+        <TextView
+                android:id="@+id/lbl_airtime"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:layout_marginLeft="@dimen/listitem_padding_value"
+                android:text="@string/loading_msg"
+                android:textColor="@color/colorPrimaryText"
+                android:textSize="@dimen/item_content_fontsize" />
+        <TextView
+                android:id="@+id/caption_state"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:paddingStart="@dimen/layout_padding_value"
+                android:text="@string/lbl_state"
+                android:textColor="@color/colorAccent"
+                android:textSize="@dimen/item_content_fontsize"
+                android:textStyle="bold" />
+        <TextView
+                android:id="@+id/lbl_airdate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:layout_marginLeft="@dimen/listitem_padding_value"
+                android:text="@string/loading_msg"
+                android:textColor="@color/colorPrimaryText"
+                android:textSize="@dimen/item_content_fontsize" />
+        <TextView
+                android:id="@+id/caption_pincode"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:paddingStart="@dimen/layout_padding_value"
+                android:text="@string/lbl_pincode"
+                android:textColor="@color/colorAccent"
+                android:textSize="@dimen/item_content_fontsize"
+                android:textStyle="bold" />
+        <TextView
+                android:id="@+id/lbl_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:layout_marginLeft="@dimen/listitem_padding_value"
+                android:text="@string/loading_msg"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="@dimen/item_content_fontsize" />
+    </GridLayout>
+    <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="@color/colorPrimaryDark"></View>
+</LinearLayout>

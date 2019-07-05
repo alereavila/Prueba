@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Series</string>
+    <string name="btn_get_request_text">Adquieir datos</string>
+    <string name="btn_get_image_request_text">Show \'Get\' Image Request Demo</string>
+    <string name="btn_post_request_text">Enviar y desplegar informacion</string>
+    <string name="loading_msg">Loading...</string>
+    <string name="lbl_pincode">Pincode:</string>
+    <string name="lbl_city">City:</string>
+    <string name="lbl_taluka">Taluka:</string>
+    <string name="lbl_district">District:</string>
+    <string name="lbl_state">State:</string>
+    <string name="search_hint_text">Enter Pincode</string>
+    <string name="title_activity_json_get">JsonGetActivity</string>
+    <string name="title_activity_json_post">JsonPostActivity</string>
+</resources>
